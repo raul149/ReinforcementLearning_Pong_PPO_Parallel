@@ -15,7 +15,6 @@ class SimpleAi(object):
         self.name = "SimpleAI"
         self.personality = random.choice([1, 2, 3, 1, 4, 1, 5, 6, 1, 1, 3])
         print('I am',self.personality)
-        self.personality=1
         self.timestep = 0
         self.counter = 0
         self.name = "SimpleAI_%s" % (self.personality)
